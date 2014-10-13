@@ -9,7 +9,7 @@ int main(void) {
         
         for(i=0; i<10; i++) {
                 printf("점수 입력(단, 4.3점 만점) :\n");
-                scanf("%f", &grade[i]);
+                scanf("%lf", &grades[i]);
                 }
         
         printf("100점 만점일 때 점수\n");
